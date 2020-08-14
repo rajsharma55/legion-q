@@ -22,5 +22,7 @@
     <!-- Enable Manual Sub Provisioning -->
     <bool name="config_enableManualSubProvisioning">true</bool>
 
+    <bool name="config_supportBatteryHealth">false</bool>
+
 </resources>
 
