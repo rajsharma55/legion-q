@@ -1,0 +1,5 @@
+allow platform_app bootime_prop { read };
+allow hal_dpmQmiMgr sysfs:file { read };
+allow hal_memtrack_default:sysfs_kgsl { read };
+allow priv_app sysfs_kgsl { read };
+allow init system_file:file { execute_no_trans };
