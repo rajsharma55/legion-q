@@ -120,6 +120,7 @@ on boot
     # DT2W
     chmod 0660 /proc/gesture/onoff
     chown system system /proc/gesture/onoff
+    write /proc/gesture/onoff 1
 
     # IR blaster
     chown root system /sys/class/leds/infrared/transmit
